@@ -1,0 +1,48 @@
+@media only screen and (max-width : 767px){
+	.menubtn{
+		display: inline;
+	}
+	.header_section>nav>ul{
+		width: 100%;
+		position: absolute;	
+		flex-direction: column;
+		justify-content: unset;
+		align-items: unset;
+		left: 0;
+		top: -106px;
+		background: #FCD21C;
+		opacity: 0;
+		visibility: hidden;
+		transition: 0.3s;
+		
+	}
+
+	.menubtn:hover + ul{
+		top: 106px;
+		opacity: 1;
+		visibility: visible;
+	}
+	.sec_01_inner{
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.sec_01_inner>aside{
+		flex-basis:100%;
+		margin: 20px 0;
+			
+    }
+    .left>div>button{
+    	margin: auto;
+    }
+    .card{
+    	flex-direction: column;
+    	padding: 0 40px;
+    }
+    .sec_04_inner{
+    	flex-direction: column;
+    }
+    .card_box2{
+    	top: 250px;
+    }
+}
